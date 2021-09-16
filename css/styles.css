@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+*:focus {
+    outline: 2px solid #de2e54;
+    outline-offset: 3px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans", "Arial", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+.main-link, h2, h3, h4 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+}
+h2,h3,h4 {
+    margin: 0;
+    font-size: 36px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+    max-width: 1160px;
+}
+.site-header {
+    padding: 24px 0;
+}
+a {
+    text-decoration: none;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    object-fit: cover;
+}
+
+.logo-ansormed {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #222;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+.logo-ansormed img {
+    border-radius: 50%;
+}
+.logo-ansormed span {
+    margin-left: 16px;
+}
+.logo-ansormed:hover {
+    color: #de2e54;
+}
+.logo-ansormed:active {
+    opacity: 0.6;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-lists li:not(:last-child) {
+    margin-right: 32px;
+}
+.nav-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.nav-link:hover, .main-link:hover {
+    color: #de2e54;
+}
+.nav-link:active {
+    opacity: 0.6;
+}
+.main-link {
+    display: inline-block;
+    padding: 10px 22px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 8px;
+    transition: color 0.4s ease, opacity 0.4s ease, background-color 0.4s ease, border 0.4s ease;
+}
+.main-link:hover {
+    background-color: #fff;
+}
+.main-link:active {
+    border-color: transparent;
+    background-color: rgba(222, 46, 84, 0.6);
+    color: #fff;
+}
+.main-pink-link {
+    background-color: #de2e54;
+    border: 2px solid #de2e54;
+}
+
+.hero {
+    padding-top: 29px;
+    color: #fff;
+    background-color: #0eb4c1;
+}
+.hero-col {
+    width: 500px;
+}
+.hero-col h2 {
+    margin-bottom: 16px;
+}
+
+.hero-col-text {
+    width: 440px;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+.hero-main-link:hover {
+    border-color: transparent;
+    background-color:  rgba(222, 46, 84, 0.8);
+    color: #fff;
+}
+.hero-main-link:active {
+    background-color:  rgba(222, 46, 84, 0.6);
+    opacity: 1;
+}
+
+.services {
+    margin: 120px auto;
+}
+.services-title {
+    text-align: center;
+    margin-bottom: 56px;
+}
+.services-row-wrapper {
+    margin-bottom: 60px;
+}
+.services-row {
+    width: 864px;
+    margin: 0 auto;
+}
+.services-row:not(:last-child) {
+    margin-bottom: 80px;
+}
+.services-row-img {
+    margin-right: 64px;
+    border-radius: 24px;
+    box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+}
+.services-row-subtitle {
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #222;
+}
+.services-row-text {
+    margin: 0;
+    color: #444;
+}
+.services-row:last-child {
+    margin-bottom: 0;
+}
+.services-main-link {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    text-align: center;
+    padding: 64px 0;
+    background-color: #0eb4c1;
+    color: #fff;
+}
+.cta-title {
+    margin-bottom: 40px;
+}
+.cta-links {
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+}
+.main-white-link {
+    margin: 0 20px;
+    border: 2px solid #fff;
+}
+.main-white-link:hover {
+    background-color: #de2e54;
+    color: #fff;
+    border: 2px solid #de2e54;
+}
+.main-white-link:active {
+    border-color: transparent;
+    background-color: rgba(222, 46, 84, 0.6);
+    color: #fff;
+}
+
+.site-footer {
+    padding: 24px 0;
+    background-color: #222;
+}
+.site-footer a, .logo-ansormed-bottom:active, .nav-link-bottom:active {
+    color: #fff;
+}

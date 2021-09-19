@@ -12,20 +12,21 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+
+
     <header class="site-header">
         <div class="container d-flex">
-            <a href="index.html" class="d-flex logo-ansormed logo-ansormed-top">
+            <a href="index.html" class="d-flex logo-ansormed">
                 <img src="/img/logo-icon.jpg" alt="logo AnsorMed" width="50" height="50" srcset="/img/logo-icon.jpg 1x, img/logo-icon@2x.jpg 2x">
-                <!-- shunisiga tushunmadim lekin saytni yaqinlashtirganda tiniq turgani yaxshi emasmidi javobni kutaman -->
                 <span>AnsorMed</span>
             </a>
             <nav class="navigation">
                 <ul class="d-flex nav-lists">
-                    <li><a href="#" class="nav-link nav-link-top">Xizmatlar</a></li>
-                    <li><a href="#" class="nav-link nav-link-top">Dorilar</a></li>
-                    <li><a href="#" class="nav-link nav-link-top">Asal</a></li>
-                    <li><a href="#" class="nav-link nav-link-top">Kontaktlar</a></li>
-                    <li><a href="#" class="nav-link nav-link-top">Blog</a></li>
+                    <li><a href="#" class="nav-link">Xizmatlar</a></li>
+                    <li><a href="#" class="nav-link">Dorilar</a></li>
+                    <li><a href="#" class="nav-link">Asal</a></li>
+                    <li><a href="#" class="nav-link">Kontaktlar</a></li>
+                    <li><a href="#" class="nav-link">Blog</a></li>
                 </ul>
             </nav>
             <a href="#link" class="main-link main-pink-link">Qabulga yozilish</a>
@@ -52,12 +53,12 @@
 
         <section class="services">
             <h2 class="services-title">Xizmatlar</h2>
-            <div class="services-row-wrapper">
+            <div class="services-row-wrapper container">
                 <div class="services-row d-flex">
                     <img src="/img/image-hijoma.jpg" alt="hijoma rasmi" width="200" height="200" srcset="/img/image-hijoma.jpg 1x, /img/image-hijoma@2x.jpg 2x" class="services-row-img">
                     <div class="services-content">
-                        <h3 class="services-row-subtitle">Hijoma</h3>
-                        <p class="services-row-text">
+                        <h3 class="services-content-subtitle">Hijoma</h3>
+                        <p class="services-content-text">
                             Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).
                         </p>
                     </div>
@@ -65,8 +66,8 @@
                 <div class="services-row d-flex">
                     <img src="/img/image-terapiya.jpg" alt="terapiya rasmi" width="200" height="200" srcset="/img/image-terapiya.jpg 1x, /img/image-terapiya@2x.jpg 2x" class="services-row-img">
                     <div class="services-content">
-                        <h3 class="services-row-subtitle">Manual terapiya</h3>
-                        <p class="services-row-text">
+                        <h3 class="services-content-subtitle">Manual terapiya</h3>
+                        <p class="services-content-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.
                         </p>
                     </div>
@@ -74,8 +75,8 @@
                 <div class="services-row d-flex">
                     <img src="/img/image-zuluk.jpg" alt="zuluk rasmi" width="200" height="200" srcset="/img/image-zuluk.jpg 1x, /img/image-zuluk@2x.jpg 2x" class="services-row-img">
                     <div class="services-content">
-                        <h3 class="services-row-subtitle">Zuluk bilan davolash</h3>
-                        <p class="services-row-text">
+                        <h3 class="services-content-subtitle">Zuluk bilan davolash</h3>
+                        <p class="services-content-text">
                             Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.
                         </p>
                     </div>
@@ -83,8 +84,8 @@
                 <div class="services-row d-flex">
                     <img src="/img/image-asal.jpg" alt="asal rasmi" width="200" height="200" srcset="/img/image-asal.jpg 1x, /img/image-asal@2x.jpg 2x" class="services-row-img">
                     <div class="services-content">
-                        <h3 class="services-row-subtitle">Tabiiy dori vositalari</h3>
-                        <p class="services-row-text">
+                        <h3 class="services-content-subtitle">Tabiiy dori vositalari</h3>
+                        <p class="services-content-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.
                         </p>
                     </div>
@@ -96,11 +97,13 @@
         </section>
         <!-- end of site-services -->
 
-        <section class="cta" id="link">
-            <h2 class="cta-title">Qabulga ro’yxatdan o’ting</h2>
-            <div class="cta-links">
-                <a href="tel:+998977070717" class="main-link main-white-link">Qo’ng’iroq qilish</a>
-                <a href="https://t.me/mayoquz" class="main-link main-white-link">Telegramdan yozish</a>
+        <section class="cta">
+            <div class="container">
+                <h2 class="cta-title">Qabulga ro’yxatdan o’ting</h2>
+                <div class="cta-links">
+                    <a href="tel:+998977070717" class="main-link main-white-link" id="link">Qo’ng’iroq qilish</a>
+                    <a href="https://t.me/mayoquz" class="main-link main-white-link">Telegramdan yozish</a>
+                </div>
             </div>
         </section>
         <!-- end of site call to action -->
